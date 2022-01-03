@@ -9,7 +9,7 @@ Supports ES6 and JSX compilation through babel.
 * To use MobX with create-react-app and decorators, [react-app-rewired](https://github.com/timarney/react-app-rewired/tree/master/packages/react-app-rewire-mobx) or this example using [custom-react-scripts](https://github.com/codylindley/mobx-react)
 
 
-### Run the example
+### Run the projcet
 
 ```
 npm install
@@ -17,6 +17,9 @@ npm start
 ```
 
 Browser should open automatically. Otherwise, navigate to the URL reported in the terminal
+
+#### BE Restful API
+You can access the BE restful API here https://github.com/choniyuazwan/product-api
 
 ### Credits
 
