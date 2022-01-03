@@ -2,18 +2,18 @@ import React from "react";
 import { observer } from 'mobx-react'
 
 @observer
-export default class Task extends React.Component {
+export default class Product extends React.Component {
   onClick () {
-    this.props.task.save({ resolved: true })
+    this.props.product.save({ resolved: true })
   }
 
   render () {
     return (
-      <li key={task.id}>
+      <li key={product.id}>
         <button onClick={this.onClick.bind(this)}>
           resolve
         </button>
-        {this.props.task.get('name')}
+        {this.props.product.get('name')}
       </li>
     )
   }

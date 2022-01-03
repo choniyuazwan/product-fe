@@ -1,13 +1,13 @@
 import React from "react";
 import { render } from "react-dom";
 import DevTools from "mobx-react-devtools";
-import Tasks from "./Tasks";
+import Products from "./Products";
 
 render(
   <div>
     <DevTools />
     <p>aaaaaaaaaaaaaaaaaaa</p>
-    <Tasks/>
+    <Products/>
   </div>,
   document.getElementById("root")
 );
